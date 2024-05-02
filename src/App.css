@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  transition: 1s;
+}
+#root {
+  min-width: 780px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'DungGeunMo';
+}
+
+
+/* 로고 이미지 */
+.logoimg{
+  width: 100px; height: 100px; display: block;
+  background-image: url('./assets/test.jpeg'); background-size: contain;
+}
+/* dayList 목록 */
+.dl{
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.dl li{
+  width: 25%;
+  margin-bottom: 10px;
+}
+/* 조회 데이터 없음 */
+.container {
+  padding: 100px 0;
+}
+.h1 {
+  color: #747bff; /* 원하는 색상 */
+  margin-bottom: 10px;
+}
+.container .p{
+  cursor: inherit !important;
+  animation: fadeIn 2.5s ease-in-out infinite;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* 테이블 */
+table{width: 100%;}
+/* form */
+form{width: 440px; margin: auto;}
+/* 테이블 Fragment */
+.fg{display: flex; justify-content: center; align-items: center;}
+.fg p{font-size: 32px; transition: 0.1s; cursor: pointer;}
+.fg p:hover{opacity: 0.3;}
+.fg p.left{margin-right: 16px;}
+.fg p.right{margin-left: 16px;}
+/* 테이블 day 타이틀 */
+.title{font-size: 24px; margin: 10px 0 30px;}
+/* 로딩 */
+.loading-container {
+  text-align: center;
+  color: #646cff;
+  position: fixed;
+  top: 35%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.loading-animation {
+  border: 8px solid #eeefff;
+  border-top: 8px solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* 로딩 이미지 */
+.loadimg{
+  width: 120px; height: 120px; display: block;
+  background-image: url('./assets/load.jpeg'); background-size: contain;
+  animation: zoomInOut 0.7s infinite alternate; /* 애니메이션 적용 */
+}
+
+@keyframes zoomInOut {
+  0% { transform: scale(1); } /* 최초 크기 */
+  100% { transform: scale(1.1); } /* 110% 크기 */
+}
+
+@keyframes ellipsis {
+  0% {
+    content: '.';
+  }
+  25% {
+    content: '..';
+  }
+  50% {
+    content: '...';
+  }
+  75% {
+    content: '..';
+  }
+}
+button.load {
+  width: 114px;
+  pointer-events: none;
+}
+button.load:hover {
+  color: inherit;
+  border-color: inherit;
+  cursor: inherit;
+}
+button.load a::after {
+  content: '';
+  animation: ellipsis 1s infinite steps(1);
+}
+
+/* 핸드폰에서의 스타일 */
+@media only screen and (max-width: 600px) {
+  /* 화면 너비가 600px 이하인 경우에만 적용됩니다. */
+  /* 여기에 핸드폰 화면에 맞는 스타일을 적용합니다. */
+  body {
+    font-size: 14px;
+  }
+  #root {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .8rem;
+  }
+  /* 로고 이미지 */
+  .logoimg{
+    width: 80px; height: 80px; 
+  }
+  .header{
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  /* form */
+  form{width: 90%; margin: auto;} 
+  /* 테이블 Fragment */
+  .fg p{font-size: 16px;}
+  .fg p.left{margin-right: 6px;}
+  .fg p.right{margin-left: 6px;}
+  .createWord{font-size: 20px !important; padding: 1.5rem !important;}
+  
+  .default button {
+    padding: 0.1em !important;
+    font-size: 0.8em !important;
+    font-weight: 400 !important;
+  }
+  .default > :last-child {
+    display: grid;
+  }
+  .default > :last-child > button {
+    margin: 0 auto;
+    width: 70%;
+
+  }
+  /* 기타 스타일을 여기에 추가하세요 */
+}

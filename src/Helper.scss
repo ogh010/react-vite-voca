@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// 넓이값 (가로)
+$width-values: 100, 99, 95, 94, 93, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 70, 68, 67, 66, 65, 60, 55, 50, 49, 48, 47, 46, 45, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 20, 19, 18, 17, 16, 15, 14, 10, 9, 8, 7, 6, 5;
+
+@each $value in $width-values {
+  .w#{$value}p {
+    width: #{$value}px !important;
+  }
+}
+
+// 높이값 (세로)
+$height-values: 10, 19, 20, 24, 25, 30, 35, 40, 42, 50, 52, 60, 70, 72, 75, 80, 82, 90, 95, 100, 110, 120, 122, 140, 150, 152, 170, 172, 180, 182, 190, 194, 200, 210, 220, 230, 240, 250, 252, 255, 280, 292, 300, 310, 350, 400, 410, 450, 465, 500, 600, 610, 630, 650, 674, 700, 774;
+
+@each $value in $height-values {
+  .h#{$value} {
+    height: #{$value}px !important;
+  }
+}
+
+// 폰트 크기
+$font-sizes: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 40;
+
+@each $size in $font-sizes {
+  .fs#{$size} {
+    font-size: #{$size}px !important;
+  }
+}
+
+// 여백 (마진, 패딩)
+$spacing-values: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
+
+@each $value in $spacing-values {
+  .m#{$value} {
+    margin: #{$value}px !important;
+  }
+
+  .p#{$value} {
+    padding: #{$value}px !important;
+  }
+}
+
+// 대표 색상
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e67e22;
+.primary-color {
+    color: $primary-color;
+}
