@@ -9,10 +9,10 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![React](https://img.shields.io/badge/React-18.2-blue)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-green)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4.3-green)
 ![JSON Server](https://img.shields.io/badge/JSON%20Server-0.16-lightgrey)
-![Axios](https://img.shields.io/badge/Axios-1.6-brightgreen)
+![Axios](https://img.shields.io/badge/Axios-1.6.8-brightgreen)
 ![Vite](https://img.shields.io/badge/Vite-5.2.9-lightblue)
 ![ESLint](https://img.shields.io/badge/ESLint-8.57.0-purple)
 ![React Router](https://img.shields.io/badge/React%20Router-6.22.3-red)
@@ -93,7 +93,7 @@ Node.js와 npm이 설치되어 있어야 합니다.
 1. 이 리포지토리를 클론합니다:
     ```sh
     git clone https://github.com/ogh010/react-vite-voca.git
-    cd your-repo-name
+    cd react-vite-voca
     ```
 
 2. 프로젝트 디렉토리로 이동한 후, 의존성을 설치합니다:
@@ -112,12 +112,12 @@ Node.js와 npm이 설치되어 있어야 합니다.
 2. 브라우저에서 [http://localhost:5173/](http://localhost:5173/)을 엽니다.
 
 ### JSON 서버 실행
-#### concurrently 라이브러리를 이용하여 json서버와 react서버를 동시에 실행시킬 수 있음 🕶️  
+참고로 concurrently 라이브러리를 이용하여 json서버와 react서버를 동시에 실행시킬 수 있도록 세팅되어있음 🕶️  
 
 1. json-server를 실행합니다:
    ```sh
    json-server --watch ./src/db/data.json --port 3001 
-
+    ```
 
 ### 빌드
 
@@ -134,6 +134,15 @@ Node.js와 npm이 설치되어 있어야 합니다.
 - **스타일링**: CSS, tailwindui
 - **도구**: concurrently
 
+## 사용된 주요 라이브러리
+
+- [axios](https://github.com/axios/axios): 1.6.8
+- [react](https://reactjs.org/): 18.2.0
+- [react-dom](https://reactjs.org/): 18.2.0
+- [react-router-dom](https://reactrouter.com/): 6.22.3
+- [tailwindcss](https://tailwindcss.com/): 3.4.3
+- [vite](https://vitejs.dev/): 5.2.9
+- [json-server](https://github.com/typicode/json-server)
 
 ## 스크린샷
 <img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/54708a38-53fe-42c2-88bb-ada4af47309f">
