@@ -12,7 +12,7 @@ export default function Header({ onDeleteDayList }) {
         <Link to={"/"}>  <span className="logoimg"></span> </Link>
         <>
         <Link to={"/"}>
-           <p className='text-gray-950'>토익 영단어</p> 
+           <p>토익 영단어</p> 
         </Link>
         </>
        
