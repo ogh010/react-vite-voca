@@ -1,7 +1,7 @@
 # 토익 영단어사전(voca) 프로젝트
 
-이 프로젝트는 리액트와 Vite를 이용하여 만든 영단어사전(보카)입니다.☺️
-이 애플리케이션은 사용자가 영단어를 검색하고, 단어의 의미와 예문을 확인할 수 있게 해줍니다.
+이 프로젝트는 리액트와 Vite를 이용하여 만든 영단어사전(보카) 웹 애플리메이션입니다.☺️ <br/>
+사용자가 Day별📆 암기할 단어를 확인할 수 있고, 단어의 의미를 확인하고 암기를 완료하면 체크✅할 수 있습니다.
 
 ## 프로젝트 구조
 
@@ -52,19 +52,6 @@
 └── vite.config.js
 
 ```
-
-## 스크린샷
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/54708a38-53fe-42c2-88bb-ada4af47309f">
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/3935d72d-6bb6-4b19-b6f0-c9343c728175">
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/a13d8f01-f975-4fcd-97cb-9be5cff35306">
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/12c2aefd-70e9-4780-b48d-5223fc29511c">
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/88f93c77-4f66-4bc4-8c41-9ca3d646cf6d">
-
-
-<br/><br/>🌑다크모드 🌚
-
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/630b71f4-9b33-485e-8f0e-e99057d50810">
-<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/86e3f970-d948-43f8-bfc0-660aa2e7ace9">
 
 ## 주요 기능
 - **Day 목록**: 사용자에게 Day 별 학습 시스템 제공
@@ -128,3 +115,16 @@ Node.js와 npm이 설치되어 있어야 합니다.
 - **스타일링**: CSS, tailwindui
 - **도구**: concurrently
 
+
+## 스크린샷
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/54708a38-53fe-42c2-88bb-ada4af47309f">
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/3935d72d-6bb6-4b19-b6f0-c9343c728175">
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/a13d8f01-f975-4fcd-97cb-9be5cff35306">
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/12c2aefd-70e9-4780-b48d-5223fc29511c">
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/88f93c77-4f66-4bc4-8c41-9ca3d646cf6d">
+
+
+<br/><br/>🌑다크모드 🌚
+
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/630b71f4-9b33-485e-8f0e-e99057d50810">
+<img width="769" alt="image" src="https://github.com/ogh010/react-vite-voca/assets/72989911/86e3f970-d948-43f8-bfc0-660aa2e7ace9">
