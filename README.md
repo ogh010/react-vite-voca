@@ -9,11 +9,16 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![React](https://img.shields.io/badge/React-17-blue)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-2.2-green)
+![React](https://img.shields.io/badge/React-18.2-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-green)
 ![JSON Server](https://img.shields.io/badge/JSON%20Server-0.16-lightgrey)
+![Axios](https://img.shields.io/badge/Axios-1.6-brightgreen)
+![Vite](https://img.shields.io/badge/Vite-5.2.9-lightblue)
+![ESLint](https://img.shields.io/badge/ESLint-8.57.0-purple)
+![React Router](https://img.shields.io/badge/React%20Router-6.22.3-red)
 
-##### 기술블로그 💻
+
+##### 기술블로그 보러가기 💻
 [https://ohgahee.tistory.com/category/React/voca%20%EB%A6%AC%EC%95%A1%ED%8A%B8](https://ohgahee.tistory.com/category/React/voca%20%EB%A6%AC%EC%95%A1%ED%8A%B8)
 
 
