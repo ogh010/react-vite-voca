@@ -14,7 +14,7 @@
 ![JSON Server](https://img.shields.io/badge/JSON%20Server-0.16-lightgrey)
 
 ##### 기술블로그 💻
-[https://nodejs.org/](https://nodejs.org/)
+[https://ohgahee.tistory.com/category/React/voca%20%EB%A6%AC%EC%95%A1%ED%8A%B8](https://ohgahee.tistory.com/category/React/voca%20%EB%A6%AC%EC%95%A1%ED%8A%B8)
 
 
 ## 프로젝트 구조
