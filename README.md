@@ -13,6 +13,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-2.2-green)
 ![JSON Server](https://img.shields.io/badge/JSON%20Server-0.16-lightgrey)
 
+##### 기술블로그 💻
+[https://nodejs.org/](https://nodejs.org/)
+
 
 ## 프로젝트 구조
 
