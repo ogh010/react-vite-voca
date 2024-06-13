@@ -3,6 +3,17 @@
 이 프로젝트는 리액트와 Vite를 이용하여 만든 영단어사전(보카) 웹 애플리메이션입니다.☺️ <br/>
 사용자가 Day별📆 암기할 단어를 확인할 수 있고, 단어의 의미를 확인하고 암기를 완료하면 체크✅할 수 있습니다.
 
+
+##### 이 프로젝트는 다음과 같은 기술을 사용합니다 🙂
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![React](https://img.shields.io/badge/React-17-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-2.2-green)
+![JSON Server](https://img.shields.io/badge/JSON%20Server-0.16-lightgrey)
+
+
 ## 프로젝트 구조
 
 ```plaintext
