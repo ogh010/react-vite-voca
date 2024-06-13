@@ -51,6 +51,10 @@
     {
       "id": "b587",
       "day": 13
+    },
+    {
+      "id": "a290",
+      "day": 14
     }
   ],
   "words": [
@@ -59,14 +63,14 @@
       "day": 1,
       "eng": "apple",
       "kor": "사과",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "3",
       "day": 1,
       "eng": "setting",
       "kor": "설정",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "4",
@@ -395,6 +399,13 @@
       "eng": "77",
       "kor": "77",
       "day": "12",
+      "isDone": false
+    },
+    {
+      "id": "4054",
+      "eng": "테스트",
+      "kor": "123",
+      "day": "13",
       "isDone": false
     }
   ]
